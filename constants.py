@@ -1,8 +1,5 @@
 PRAW_USER = ""
 SUBREDDIT = "" #Subreddit name to monitor, without the preceding "/r/", for example "redditdev"
-
-DATABASE_TYPE = "sqlite"
-
 SQLALCHEMY_DATABASE_URL = "sqlite:///localshift.db"
 
 #Or for a mysql/mariadb database:
